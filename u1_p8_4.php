@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <?php
+<?php
     error_reporting(0);
 ?>
 
@@ -27,14 +18,9 @@
     $nm[2]=$_GET['uname3'];
     $nm[3]=$_GET['uname4'];
     $nm[4]=$_GET['uname5'];
-
-        $n=array_reverse($nm);
-        foreach($n as $a)
-        {
-            echo $a."<br>";
-        }
     
+    foreach($nm as $n)
+    {
+        echo $n."</br>";
+    }
 ?>
-
-</body>
-</html>
